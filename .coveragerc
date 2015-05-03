@@ -1,0 +1,16 @@
+[report]
+source = model_validator
+omit = 
+ eggs/* 
+ develop-eggs/* 
+ parts/*
+ build/*
+ dist/*
+ django_model_validator.egg-info/*
+ */site-packages/*
+ */distutils/*
+ bin/*
+ *.egg/*
+ setup.py
+ runtests.py
+ test_suite/*
