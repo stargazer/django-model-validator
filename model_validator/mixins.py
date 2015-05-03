@@ -1,7 +1,3 @@
-"""
-This module implements the functionality for request body deserialization.
-API handler classes can inherit the functionality of any of these mixins.
-"""
 from django.core.exceptions import ValidationError
 from django.db.models import Model
 
